@@ -44,3 +44,4 @@ Temporary Items
 key.txt
 db.sqlite3
 *.pyc
+.idea/workspace.xml
