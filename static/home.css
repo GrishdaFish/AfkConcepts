@@ -1,0 +1,8 @@
+#bg {
+	background: url("/media/skyline.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	
+	background-color: #5e5e5e;
+}
