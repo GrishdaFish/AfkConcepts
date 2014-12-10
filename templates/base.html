@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% block headcontrol %}<html>{% endblock %}
+<head>
+<link rel="stylesheet" type="text/css" href="static/base.css" />
+{% block head %}{%endblock%}
+</head>
+<body>
+	<div id="header"><ul id="nav"> <!-- header -->
+		<li><a href="{% url 'portfolio' %}"><img class="plink" src="media/portfolioLink.png"/></a></li>
+		<li><a href="{% url 'services' %}"><img class="slink" src="media/servicesLink.png"/></a></li>
+		<li><a href="{% url 'contact' %}"><img class="clink" src="media/contactLink.png"/></a></li>
+		</ul>
+		<hr />
+	</div> <!-- end header -->
+	<div>{% block content %} {% endblock %}</div> <!-- content -->
+	<div id="footer">{% block footer %}<hr/><p>Copyright 2014 Afk Concepts. All Rights Reserved.</p>  {% endblock %}</div> <!-- footer -->
+</body>
+</html>

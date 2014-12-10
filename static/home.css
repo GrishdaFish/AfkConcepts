@@ -6,3 +6,21 @@
 	
 	background-color: #5e5e5e;
 }
+
+img{
+	border: 0;
+}
+
+.slogan{
+	background: url("/media/slogan.png") no-repeat;
+	position: fixed;
+	top: 200px;
+	left: 250px;
+}
+
+.slogan:hover{
+	background: url("/media/sloganOver.png") no-repeat;
+	position: fixed;
+	top: 200px;
+	left: 250px;
+}
