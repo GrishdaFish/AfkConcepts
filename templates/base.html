@@ -1,14 +1,16 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% load staticfiles %}
+
 {% block headcontrol %}<html>{% endblock %}
 <head>
-<link rel="stylesheet" type="text/css" href="static/base.css" />
+<link rel="stylesheet" type="text/css" href={% static "styles/base.css" %} />
 {% block head %}{%endblock%}
 </head>
 <body>
 	<div id="header"><ul id="nav"> <!-- header -->
-		<li><a href="{% url 'portfolio' %}"><img class="plink" src="media/portfolioLink.png"/></a></li>
-		<li><a href="{% url 'services' %}"><img class="slink" src="media/servicesLink.png"/></a></li>
-		<li><a href="{% url 'contact' %}"><img class="clink" src="media/contactLink.png"/></a></li>
+		<li><a href="{% url 'portfolio' %}"><img class="plink" src={% static "images/portfolioLink.png" %}/></a></li>
+		<li><a href="{% url 'services' %}"><img class="slink" src= {% static "images/servicesLink.png" %}/></a></li>
+		<li><a href="{% url 'contact' %}"><img class="clink" src={% static "images/contactLink.png" %}/></a></li>
 		</ul>
 		<hr />
 	</div> <!-- end header -->
