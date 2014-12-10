@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="030c3b68-aa71-4142-90a4-7bb64e0f844d" name="Default" comment="Moved (copied for now) image files from /media/ to /static/images.&#10;Moved CSS files to /static/styles/&#10;Moved html files to /templates/home/ directory (only base templates should be in /templates/)&#10;&#10;Edited base template to include {% load staticfiles %} and call images and css accordingly&#10;&#10;Few other misc changes (if any)&#10;&#10;Note (City scape background only shows up on splash (/ or /home/) screen">
-      <change type="DELETED" beforePath="C:\BottomLineWebApp\AfkConcepts\static\base.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\BottomLineWebApp\AfkConcepts\static\home.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\BottomLineWebApp\AfkConcepts\templates\contact.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\BottomLineWebApp\AfkConcepts\templates\portfolio.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\BottomLineWebApp\AfkConcepts\templates\services.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home/index.html" afterPath="$PROJECT_DIR$/templates/home/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/afkconcepts/settings.py" afterPath="$PROJECT_DIR$/afkconcepts/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/afkconcepts/urls.py" afterPath="$PROJECT_DIR$/afkconcepts/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/afkconcepts/views.py" afterPath="$PROJECT_DIR$/afkconcepts/views.py" />
+    <list default="true" id="030c3b68-aa71-4142-90a4-7bb64e0f844d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AfkConcepts.iws" />
@@ -38,8 +28,8 @@
       <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/afkconcepts/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4314721" vertical-offset="0" max-vertical-offset="591">
-              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.6903553" vertical-offset="0" max-vertical-offset="591">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -569,13 +559,18 @@
       <created>1418108506018</created>
       <updated>1418108506018</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Moved (copied for now) image files from /media/ to /static/images.&#10;Moved CSS files to /static/styles/&#10;Moved html files to /templates/home/ directory (only base templates should be in /templates/)&#10;&#10;Edited base template to include {% load staticfiles %} and call images and css accordingly&#10;&#10;Few other misc changes (if any)&#10;&#10;Note (City scape background only shows up on splash (/ or /home/) screen)">
+      <created>1418199564083</created>
+      <updated>1418199564083</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -585,13 +580,12 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3300866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3300866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -613,7 +607,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="reverted using fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverted using fix" />
+    <MESSAGE value="Moved (copied for now) image files from /media/ to /static/images.&#10;Moved CSS files to /static/styles/&#10;Moved html files to /templates/home/ directory (only base templates should be in /templates/)&#10;&#10;Edited base template to include {% load staticfiles %} and call images and css accordingly&#10;&#10;Few other misc changes (if any)&#10;&#10;Note (City scape background only shows up on splash (/ or /home/) screen)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved (copied for now) image files from /media/ to /static/images.&#10;Moved CSS files to /static/styles/&#10;Moved html files to /templates/home/ directory (only base templates should be in /templates/)&#10;&#10;Edited base template to include {% load staticfiles %} and call images and css accordingly&#10;&#10;Few other misc changes (if any)&#10;&#10;Note (City scape background only shows up on splash (/ or /home/) screen)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -979,8 +974,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/afkconcepts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4314721" vertical-offset="0" max-vertical-offset="591">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.6903553" vertical-offset="0" max-vertical-offset="591">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>

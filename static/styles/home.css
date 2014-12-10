@@ -1,0 +1,26 @@
+#bg {
+	background: url("../images/skyline.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	
+	background-color: #5e5e5e;
+}
+
+img{
+	border: 0;
+}
+
+.slogan{
+	background: url("../images/slogan.png") no-repeat;
+	position: fixed;
+	top: 200px;
+	left: 250px;
+}
+
+.slogan:hover{
+	background: url("../images/sloganOver.png") no-repeat;
+	position: fixed;
+	top: 200px;
+	left: 250px;
+}

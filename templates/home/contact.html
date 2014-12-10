@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% block headcontrol %}<html>{% endblock %} <!-- <html id="bg"> if you want to fp a bg(css) -->
+{% block head %}{%endblock%} <!-- title , links , scripts -->
+{% block content %}
+    <div>
+        <p>Submit your contact information and a brief
+        description of the services you are looking for,
+        if you already have a site you would like us to
+        work on please include the address(URL).</p>
+
+         {%if err_msg %} {{err_msg}} {% endif %}
+        <form action="" method="post"> <!-- define action once written -->
+        <input type="hidden" name="pot" />
+        <table>
+        <tr><td>First Name</td><td><input type="text" name="fname" /></td></tr>
+        <tr><td>Last Name</td><td><input type="text" name="lname" /></td></tr>
+        <tr><td>Email</td><td><input type="text" name="email" /></td></tr>
+        <tr><td>Details</td><td><textarea name="detail" rows="4" cols="50"></textarea></td></tr>
+        </table>
+        <input type="submit" value="Submit Request!" />
+        </form> 
+    </div>
+
+{% endblock %} <!-- page specific content -->
